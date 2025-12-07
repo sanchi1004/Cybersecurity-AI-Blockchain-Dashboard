@@ -4,11 +4,7 @@ __pycache__/
 *.pyo
 
 # Model files
-cyber_ai_model.pkl
-label_encoders.pkl
-metrics.pkl
-model_features.pkl
-scaler.pkl
+*.pkl
 # Node.js
 node_modules/
 
