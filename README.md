@@ -59,11 +59,14 @@ Outputs:
 "ganache"
 ```
 
-Run on local terminal and save the "Available Accounts" and CORRESPONDING "Private Keys" generated
+Run on local terminal and save the "Available Accounts" and "Private Keys" generated
 
 ### Deploy the Smart Contract
 
-- Open Remix, create `CyberLog.sol`, compile with Solidity `^0.8.0`. *Note: IT WONT WORK WITH THE LATEST COMPILER OF SOLIDITY.*
+> Open Remix, create `CyberLog.sol`, compile with Solidity `^0.8.0`.
+> 
+> *Note: IT WONT WORK WITH THE LATEST COMPILER OF SOLIDITY.*
+
 - Connect Remix to your local Ganache server and then deploy.
 - Copy the deployed contract address into `contract_address.txt`.
 - Export ABI from Remix and save as `contract_abi.json`.
@@ -81,7 +84,6 @@ Security note: For local dev, keys are in code as they are re-generated everytim
 ### Run the Dashboard Locally
 
 ```zsh
-source .venv/bin/activate
 streamlit run app.py
 ```
 
