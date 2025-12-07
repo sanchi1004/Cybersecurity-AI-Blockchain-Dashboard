@@ -1,0 +1,15 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Model files
+cyber_ai_model.pkl
+label_encoders.pkl
+metrics.pkl
+model_features.pkl
+# Node.js
+node_modules/
+
+# macOS
+.DS_Store
