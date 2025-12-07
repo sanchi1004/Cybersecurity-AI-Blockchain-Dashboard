@@ -55,7 +55,11 @@ Outputs:
 
 ### Run Ganache RPC Server Locally
 
-- Run "ganache" on local terminal and save the "Available Accounts" and CORRESPONDING "Private Keys" generated
+```zsh
+"ganache"
+```
+
+Run on local terminal and save the "Available Accounts" and CORRESPONDING "Private Keys" generated
 
 ### Deploy the Smart Contract
 
