@@ -63,8 +63,8 @@ Run on local terminal and save the "Available Accounts" and "Private Keys" gener
 
 ### Deploy the Smart Contract
 
-> Open Remix, create `CyberLog.sol`, compile with Solidity `^0.8.0`.
-> 
+- Open Remix, create `CyberLog.sol`, compile with Solidity `^0.8.0`.
+
 > *Note: IT WONT WORK WITH THE LATEST COMPILER OF SOLIDITY.*
 
 - Connect Remix to your local Ganache server and then deploy.
